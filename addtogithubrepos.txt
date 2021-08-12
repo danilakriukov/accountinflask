@@ -1,0 +1,14 @@
+#Set the folder
+cd /c/Users/Пользователь/Desktop/programs/accountinflask
+
+
+#Run git
+git config --global user.name "Danila Kriukov"
+git config --global user.email "2018.danilakriukov@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
+#Push the data to GitHub
+git add .
+git commit -am "promordial version"
