@@ -12,3 +12,11 @@ git init
 #Push the data to GitHub
 git add .
 git commit -am "promordial version"
+git remote add origin https://github.com/danilakriukov/accountinflask.git
+git branch -M main
+git push -u origin main
+
+#Save changes in a new version
+git add .
+git commit -am "Version 12.08.2021"
+git push
